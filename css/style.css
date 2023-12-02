@@ -1,0 +1,1381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{padding: 0;margin: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  .tempelete{
+    width: 1427px;
+    margin: auto;
+  }
+
+header {
+    background:url(../photo/Background\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 978px;
+  }
+
+  .primary {
+    width: 100%;
+  }
+  
+.container {
+    width: 89%;
+    margin: auto;
+  }
+  
+.Raper_primary {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 70px;
+  }
+
+  
+.email {
+    width: 21%;
+    font-size: 20px;
+  }
+  
+.email i {
+    width: 34px;
+  }
+
+
+  .phone {
+    width: 58%;
+    font-size: 20px;
+  }
+  
+.phone i {
+  width: 30px;
+}
+
+
+.menu_LIst{
+    display: flex;
+    font-size: 19px;
+    width: 96%;
+
+    height: 33px;
+  }
+  
+.menu_LIst li i {
+    width: 45px;
+    text-align: center;
+    cursor: pointer;
+    height: 39px;
+    place-items: center;
+    display: grid;
+  }
+  .menu_LIst li i:hover{
+    background: white;
+    color: red;
+    transition: 1s;
+   border-radius:3px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.Home_menu {
+  width: 40%;
+  background: white;
+}
+.Heder_logo {
+  width: 20%;
+  background: white;
+}
+.home_menutwo {
+  width: 40%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+
+.Homer_Raper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu_List_Home {
+  display: flex;
+  width: 69%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 16px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+.Home_menu_list_two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 36%;
+  margin: auto;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.btn_download {
+  width: 47%;
+  outline: none;
+  border: none;
+  height: 57px;
+  background: rgba(117, 114, 255, 1);
+  font-size: 22px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left_Side_Market {
+  width: 46%;
+  background: url(../photo/image1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 551px;
+  position: relative;
+  left: 34px;
+}
+
+.background1 {
+  background: white;
+  width: 91%;
+}
+.Raper_market {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.background1 {
+  background: white;
+  width: 91%;
+  margin-top: 63px;
+  position: absolute;
+  left: -33px;
+}
+
+
+.background1 h1 {
+  width: 90%;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  margin-bottom: -10px;
+  padding: 14px;
+  color: rgba(117, 114, 255, 1);
+}
+.background1 p {
+  width: 92%;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  word-spacing: 2px;
+  margin-bottom: 14px;
+  padding: 12px;
+}
+
+
+.background1 h2 {
+  width: 63%;
+  padding: 12px;
+  font-size: 28px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+
+.googole_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 61%;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-bottom: 27px;
+}
+
+.google_img {
+  cursor: pointer;
+}
+.app_img {
+  cursor: pointer;
+}
+
+.right_side_Market {
+  width: 41%;
+}
+
+.right_side_Market img {
+  width: 114%;
+  margin-left: 52px;
+  margin-top: 46px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_about {
+  background: wheat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about_box {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.about_box h1 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: rgba(117, 114, 255, 1);
+}
+
+
+.about_box p {
+  width: 53%;
+  margin: auto;
+  line-height: 26px;
+  font-weight: 300;
+  word-spacing: 1px;
+  margin-bottom: 65px;
+}
+
+
+.Raper_about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_bout {
+  width: 50%;
+}
+.left_bout img{
+  width: 54%;
+  margin: auto;
+  text-align: center;
+  display: grid;
+}
+
+.right_aout {
+  width: 50%;
+  /*! background: white; */
+  padding: 12px;
+}
+
+.round_box {
+  width: 34%;
+  height: 65px;
+  background: white;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: -42px;
+  margin-left: 189px;
+}
+
+
+
+
+
+.about_content {
+  padding: 9px;
+  background: white;
+  margin-bottom: 18px;
+}
+
+.about_content h1 {
+  font-family: Roboto;
+  font-size: 23px;
+  text-transform: uppercase;
+  word-spacing: 8px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.about_content p {
+  font-weight: 300;
+  margin-bottom: 23px;
+  margin-top: 4px;
+  word-spacing: 1px;
+  margin-left: 50px;
+}
+
+
+.circle_Box {
+  display: flex;
+  align-items: center;
+}
+.circle_Box i {
+  width: 50px;
+  text-align: center;
+  display: grid;
+  color: rgba(117, 114, 255, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_app {
+  /*! margin-top: 50px; */
+  /*! margin-bottom: 100px; */
+  background: url(../photo/longbackground.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 36px;
+}
+
+.app_box {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.app_box h1 {
+  font-size: 28px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 13px;
+  margin-top: 18px;
+}
+
+.app_box p {
+  width: 54%;
+  margin: auto;
+  text-align: center;
+  line-height: 25px;
+  font-size: 17px;
+}
+
+
+.chart_box {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 37px;
+}
+
+
+.chart_box i {
+  font-size: 28px;
+  width: 47px;
+  height: 40px;
+  display: grid;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 33px;
+  color: white;
+}
+.chart_box i:hover{
+  background: red;
+  font-size: 28px;
+  width: 47px;
+  height: 40px;
+  display: grid;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+  transition: 1s;
+  color: white;
+}
+
+
+.chart_box h1 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 700;
+  word-spacing: 3px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.chart_box p {
+  width: 28%;
+  margin: auto;
+  line-height: 29px;
+  font-size: 18px;
+  font-family: Roboto;
+  text-transform: capitalize;
+}
+
+
+.Raper_app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 700px;
+}
+
+
+.left_side_content {
+  width: 30%;
+  height: 525px;
+}
+.middle_side_content {
+  width: 39%;
+}
+.right_side_content {
+  width: 30%;
+  height: 525px;
+}
+
+
+.book_img {
+  width: 95%;
+  text-align: right;
+}
+
+
+.right_contentiso {
+  width: 87%;
+  margin-left: 23px;
+  padding: 4px;
+  padding-bottom: 250px;
+}
+
+
+.book_img img {
+  margin-left: 238px;
+  width: 37px;
+}
+
+
+.book_content {
+  width: 95%;
+  text-align: right;
+  font-family: roboto;
+}
+
+
+.book_content h1 {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: Roboto;
+  margin-top: 14px;
+  margin-bottom: 19px;
+  width: 100%;
+  font-weight: 600;
+}
+.book_content p {
+  font-family: Roboto;
+  line-height: 22px;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding-bottom: 250px;
+}
+
+
+.middle_side_content img {
+  width: 82%;
+  margin: auto;
+  display: grid;
+  margin-left: 68px;
+}
+
+
+
+.phone_img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.phone_img img {
+  width: 11%;
+  margin-left: 18px;
+}
+
+
+.right_contentiso h1 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  word-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+
+.phone_img img {
+  width: 38px;
+}
+
+
+.man_box {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: -53px;
+  height: 229px;
+}
+
+
+.man_img img {
+  width: 36px;
+}
+.man_box h1 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-top: 13px;
+}
+
+.man_box p {
+  width: 27%;
+  margin: auto;
+  text-align: center;
+  line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_lock {
+  background: #ddd;
+ 
+}
+
+.Lock_tittle {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.Lock_tittle h1 {
+  width: 100%;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 72px;
+}
+
+
+.Lock_tittle p {
+  font-family: Roboto;
+  text-transform: capitalize;
+  font-size: 14px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 36px;
+  line-height: 23px;
+  word-spacing: 1px;
+}
+
+
+.Phone_lock_img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.Phone_lock_img img {
+  width: 50%;
+}
+
+
+.phone_round_img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.phone_round_img img {
+  width: 102px;
+  margin-bottom: 46px;
+  margin-top: 20px;
+}
+
+
+
+.Raper_Now {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_now {
+  padding-top: 88px;
+  padding-bottom: 50px;
+}
+.Left_side_Now {
+  width: 50%;
+}
+.right_side_Now {
+  width: 50%;
+  text-align: center;
+}
+
+
+.Left_side_Now h1 {
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+
+.Left_side_Now p {
+  font-family: Roboto;
+  text-transform: capitalize;
+  font-weight: 300;
+  line-height: 23px;
+  word-spacing: 2px;
+  width: 100%;
+  margin-bottom: 54px;
+}
+
+
+.play_img {
+  width: 100%;
+  margin-top: 75px;
+}
+.download_img {
+  width: 100%;
+  text-align: center;
+}
+
+
+.play_img img {
+  width: 365px;
+  height: 49px;
+  cursor: pointer;
+  margin-bottom: 26px;
+}
+
+
+.download_img img {
+  width: 75%;
+  margin-left: -170px;
+}
+
+
+.right_side_Now img {
+  width: 68%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_how {
+  background: url(../photo/Background\ Image.png);
+  background-repeat:repeat;
+  background-size:auto;
+  height:367px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 70px;
+  margin-bottom: 255px;
+}
+
+
+
+.how_box {
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+
+.how_box h1 {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  word-spacing: 3px;
+  font-size: 29px;
+  margin-bottom: 12px;
+
+}
+
+.how_box p {
+  width: 53%;
+  margin: auto;
+  line-height: 25px;
+  word-spacing: 1px;
+}
+
+
+.How_video {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_team {
+  margin-top: 20px;
+  margin-bottom: 159px;
+}
+
+.tem_box {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.tem_box p {
+  width: 53%;
+  margin: auto;
+  text-align: center;
+  line-height: 24px;
+  word-spacing: 1px;
+  margin-bottom: 82px;
+}
+.tem_box h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+
+
+
+.Raper_team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+.team_position {
+  position: relative;
+}
+.team_round_img {
+  position: absolute;
+  top: -12px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.team_backgrnd_img {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  top: -2px;
+}
+
+
+.team_content {
+  width: 100%;
+  margin-top: 232px;
+}
+
+
+.team_content h1 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.team_content h3 {
+  font-family: Roboto;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.team_content p {
+  width: 64%;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 19px;
+}
+
+.content_img {
+  width: 100%;
+  text-align: center;
+  margin-top: 36px;
+}
+.content_img img {
+  width: 68%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_happy{
+  background: url(../photo/Background\ Image.png);
+  margin-bottom: 50px;
+  height: 631px;
+  padding-top: 55px;
+}
+
+
+.Box_happy {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.Box_happy h1 {
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.Box_happy p {
+  font-family: Roboto;
+  width: 53%;
+  margin: auto;
+  line-height: 25px;
+  word-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+
+.Happy_raper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+
+.happy_content {
+  margin: auto;
+  background: white;
+  height: 181px;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  position: relative;
+}
+.happy_content img {
+  width: 9%;
+  padding-top: 10px;
+}
+.happy_content h1 {
+  font-size: 22px;
+  font-weight: 60;
+  margin-bottom: 10px;
+}
+.happy_content p {
+  width: 98%;
+  font-size: 15px;
+  line-height: 21px;
+  word-spacing: 1px;
+}
+
+.team_Box_1 {
+  border: 1px solid #00000029;
+  width: 30%;
+  height: 501px;
+  padding-top:40px
+}
+
+.happy_cotent {
+  width: 62%;
+  margin: auto;
+  background: white;
+  text-align: center;
+  margin-top: -220px;
+  position: relative;
+  height: 257px;
+  border-radius: 5px;
+}
+
+.happy_cotent img {
+  padding-top: 10px;
+}
+
+.round_btns {
+  width: 100%;
+  text-align: center;
+  margin-top: 78px;
+  margin-bottom: 89px;
+}
+
+
+.happy_cotent h1 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 500;
+  word-spacing: 3px;
+  margin-bottom: 11px;
+  margin-top: 11px;
+}
+
+.happy_cotent p {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  line-height: 23px;
+  word-spacing: 1px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header_blog {
+  margin-top: -60px;
+  padding-top: 53px;
+  padding-bottom: 83px;
+}
+
+.container_Bolg {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.container_Bolg h2 {
+  font-family: Roboto;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.container_Bolg p {
+  width: 61%;
+  text-align: center;
+  margin: auto;
+  line-height: 23px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+
+
+.work_img img {
+  width: 98%;
+
+}
+.work_img {
+  width: 100%;
+}
+
+.work_content h2 {
+  font-size: 19px;
+  font-weight: 700;
+  font-family: Roboto;
+  margin-bottom: 18px;
+  margin-top: 10px;
+  line-height: 23px;
+}
+.work_content p {
+  font-family: Roboto;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 21px;
+}
+.work_content a {
+  text-transform: uppercase;
+  margin-top: 23px;
+  display: block;
+  font-weight: 500;
+  word-spacing: 1px;
+}
+
+.work_box {
+  border: 1px solid #0000002e;
+  width: 30%;
+}
+
+
+.work_raper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.work_content {
+  margin-left: 27px;
+  margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_sms {
+  margin-top: 30px;
+  margin-bottom: 135px;
+}
+
+.Raper_sms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 152px;
+  background: white;
+  border-radius: 6px;
+  width: 86%;
+  margin: auto;
+  position: relative;
+  border: 1px solid #00000070;
+}
+.left_side_sms {
+  width: 41%;
+  padding: 10px;
+  border-right: 2px solid black;
+}
+.Right_side_sms {
+  width: 50%;
+  padding: 10px;
+}
+
+
+.left_side_sms i {
+  width: 21px;
+  background: rgba(89, 86, 233, 1);
+  color: white;
+  height: 21px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.Right_side_sms i {
+  width: 21px;
+  background: rgba(89, 86, 233, 1);
+  color: white;
+  height: 21px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+
+.left_side_sms span {
+  font-size: 15px;
+}
+.Right_side_sms span{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Header_log_box {
+  margin-top: -185px;
+  margin-bottom: 100px;
+  background: #000000c9;
+  height: 600px;
+  padding-top: 146px;
+}
+
+.logo_tittle {
+  width: 33%;
+}
+.logo_tittle h2 {
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 32px;
+  font-size: 33px;
+}
+.logo_tittle p {
+  font-family: Roboto;
+  font-size: 13px;
+  text-transform: capitalize;
+  line-height: 30px;
+  margin-bottom: 47px;
+}
+.logo_icon {
+  width: 40%;
+}
+.icon_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150%;
+  font-size: 21px;
+}
+
+.Raper_logo_box {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.middle_tittle h1 {
+  width: 100%;
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 38px;
+}
+.middle_tittle {
+  width: 33%;
+}
+.middle_tittle p {
+  width: 100%;
+  font-family: Roboto;
+  line-height: 31px;
+  margin-bottom: 30px;
+}
+
+
+.right_side_tittle {
+  width: 30%;
+}
+.right_side_tittle h1 {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 27px;
+  margin-bottom: 82px;
+}
+.right_side_tittle p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 56px;
+}
